@@ -17,7 +17,7 @@ CS102 Group Project
 - Like
 - Dislike
 - No opinion
-- 	This procedure continues for 30 films of various genres. These 30 films are chosen randomly among a film collection of 200 films. 
+	This procedure continues for 30 films of various genres. These 30 films are chosen randomly among a film collection of 200 films. 
 	As the users accomplish evaluating all films, they are suggested 5 films based on their evaluations. 
 	During the compilation process of a user’s liking inputs, an overall movie taste of the user is determined. 
 	Determining the users’ film taste and the related  suggestion is done according to the received inputs, specifying the common points in chosen 		movies’ genres. 
