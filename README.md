@@ -1,4 +1,15 @@
-# CS102-Smovie-q0nuralpcr1ng3
+# **Smovie**
+by **q0nuralpcr1ng3**
+CS102 Group Project
+
+## **Group Members**
+-Atakan Keser
+-Bengisu Serinken
+-Feza Emir Çelik
+-Konuralp Kılınç
+-Ulaş Keskin
+
+## **Details About Smovie**
 "Smovie" is an application which makes multiple film suggestions to the user based on their decisions whether they like, dislike, or do not have any idea about numerous other films. Each bunch of suggestions target specifically that current user, since every unique person’s interest and film taste are also unique.
 As the users open the app, they are given a login page. They will register or login into the app. They will insert their password and username to login and register.
 After logging in, the users are given film posters on by one, and are required to answer only one question about each film: “ What is your opinion about this movie? “
