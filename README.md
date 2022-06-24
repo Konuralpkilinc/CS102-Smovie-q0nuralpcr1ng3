@@ -1,5 +1,6 @@
 # **Smovie**
 by **q0nuralpcr1ng3**
+
 CS102 Group Project
 
 ## **Group Members**
