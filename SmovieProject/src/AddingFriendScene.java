@@ -14,7 +14,7 @@ public class NewJFrame2 extends javax.swing.JFrame {
      */
     public NewJFrame2() {
         initComponents();
-        //**yarak */
+        //**knrklnknrkln */
     }
 
     /**
