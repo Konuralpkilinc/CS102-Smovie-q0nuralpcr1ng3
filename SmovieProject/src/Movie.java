@@ -8,6 +8,7 @@ import javax.swing.ImageIcon;
 public class Movie {
 
     private String name;
+<<<<<<< HEAD
     private int genre;
     private ImageIcon poster;
     private String description; 
@@ -103,6 +104,23 @@ public class Movie {
     }
 
     public Movie(String name, int genre, ImageIcon poster, String description) {
+=======
+    private String[] genre;
+    private ImageIcon poster;
+    private String description; 
+    
+    static ArrayList<Movie> movies = new ArrayList<>();
+    
+   
+
+    public String[] getGenre(){
+        return genre;
+    }
+
+
+
+    public Movie(String name, String[] genre, ImageIcon poster, String description) {
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
         this.name = name;
         this.genre = genre;
         this.poster = poster;
@@ -123,7 +141,11 @@ public class Movie {
 
 
 
+<<<<<<< HEAD
     public void setGenre(int genre) {
+=======
+    public void setGenre(String[] genre) {
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
         this.genre = genre;
     }
 
@@ -161,6 +183,7 @@ public class Movie {
     public static void setMovies(ArrayList<Movie> movies) {
         Movie.movies = movies;
     }
+<<<<<<< HEAD
 
     public static ArrayList<Movie> moviesInCategory(int cat, ArrayList<Movie> mov  ){
         ArrayList<Movie> result = new ArrayList<Movie>();
@@ -173,5 +196,7 @@ public class Movie {
 
         return result;
     }
+=======
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
     
 }

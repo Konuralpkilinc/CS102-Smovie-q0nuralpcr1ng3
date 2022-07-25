@@ -1,12 +1,16 @@
 import java.util.ArrayList;
+<<<<<<< HEAD
 import java.util.Random;
 
 import javax.swing.Action;
 import javax.swing.JPanel;
+=======
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
 
 
 public class User {
 
+<<<<<<< HEAD
 
     ArrayList<User> friendsArray;
     static ArrayList<User> users = new ArrayList<>();
@@ -28,6 +32,16 @@ public class User {
     protected int[] movieTaste;
     static User currentUser;
 
+=======
+    ArrayList<User> friendsArray;
+    //add types 
+    static final int ADVENTURE = 0;
+    static final int COMEDY = 1;
+    static final int ROMANCE = 2;
+    static int numbersOfMovieTypes = 3;
+    final int noOfNumbersCanBeRecommended = 5;
+
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
     String name;
     String password;
     ArrayList<Movie> moviesAlreadyEvaluated;
@@ -35,7 +49,11 @@ public class User {
     ArrayList<SharedUser> blendListsOfUser;
     Movie[] moviesRecommended = new Movie[noOfNumbersCanBeRecommended];
 
+<<<<<<< HEAD
     ArrayList<Movie> allMovies;
+=======
+    protected int[] movieTaste;
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
 
     public User(String name, String password){
         this.name = name;
@@ -44,15 +62,22 @@ public class User {
         moviesLiked = new ArrayList<>();
         movieTaste = new int[numbersOfMovieTypes];
         this.initializeMovieTasteForBeginning();
+<<<<<<< HEAD
         this.createUsers();
         currentUser = this;
     }
 
+=======
+    }
+
+
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
     //we will use this default constructor to prevent compile errors at sharedUsers
     public User(){
 
     }
 
+<<<<<<< HEAD
     public void initializeUsersTaste(int comedy, int action, int horror, int thriller, int scifi, int drama){
         this.movieTaste[COMEDY] = comedy;
         this.movieTaste[ACTION] = action;
@@ -72,6 +97,9 @@ public class User {
         users.add(user3);
         users.add(user4);
     }
+=======
+    //bu basit siktir et bunu
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
 
     public void initializeMovieTasteForBeginning(){
         for(int index = 0; index < numbersOfMovieTypes; index++){
@@ -79,6 +107,7 @@ public class User {
         }
     }
 
+<<<<<<< HEAD
     public void initializeMoviesRecommended(){
         moviesRecommended = evaluateTasteToRecommendedMovie();
     }
@@ -159,11 +188,24 @@ public class User {
 
         else return secondmax;      
 
+=======
+    //öner film uygunsa değilse koyma ereye
+
+    public void initializeMoviesRecommended(){
+        for(int i = 0; i < noOfNumbersCanBeRecommended; i++){
+            moviesLiked.add(evaluateTasteToRecommedMovie());
+        }
+    }
+
+    public Movie evaluateTasteToRecommedMovie(){
+        //To do
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
     }
 
     public void updateMovieTaste(){
         //sonra elemanın zevklerini yeniliyor
         for (int i = 0; i < moviesLiked.size(); i++){
+<<<<<<< HEAD
              /*bu loop önce filmin ilk genresini sonra ikinci genresine bakıyor */
                 if (moviesLiked.get(i).getGenre() == (ACTION)){
                     movieTaste[ACTION]++;
@@ -184,6 +226,19 @@ public class User {
                     movieTaste[DRAMA]++;
                 }
             
+=======
+            for (int j = 0; j < moviesLiked.get(j).getGenre().length; j++){ /*bu loop önce filmin ilk genresini sonra ikinci genresine bakıyor */
+                if (moviesLiked.get(i).getGenre()[j].equalsIgnoreCase("ADVENTURE")){
+                    movieTaste[ADVENTURE]++;
+                }
+                if (moviesLiked.get(i).getGenre()[j].equalsIgnoreCase("COMEDY")){
+                    movieTaste[COMEDY]++;
+                }
+                if (moviesLiked.get(i).getGenre()[j].equalsIgnoreCase("ROMANCE")){
+                    movieTaste[ROMANCE]++;
+                }
+            }
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
         }
     }
 

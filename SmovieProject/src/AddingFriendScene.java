@@ -7,6 +7,7 @@
  *
  * @author konur
  */
+<<<<<<< HEAD
 public class AddingFriendScene extends javax.swing.JFrame {
 
     /**
@@ -18,6 +19,15 @@ public class AddingFriendScene extends javax.swing.JFrame {
         user = LoginScreen.currentUser;
         initComponents();
         this.setVisible(true);
+=======
+public class NewJFrame2 extends javax.swing.JFrame {
+
+    /**
+     * Creates new form NewJFrame2
+     */
+    public NewJFrame2() {
+        initComponents();
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
         //**knrklnknrkln */
     }
 
@@ -33,7 +43,11 @@ public class AddingFriendScene extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jTextField1 = new javax.swing.JTextField();
+<<<<<<< HEAD
         enterButton = new javax.swing.JButton();
+=======
+        jButton1 = new javax.swing.JButton();
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -43,11 +57,16 @@ public class AddingFriendScene extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+<<<<<<< HEAD
         jLabel1.setText("Enter your friends username that you wanted to add");
+=======
+        jLabel1.setText("Enter your friends name that you wanted to add");
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
 
         jTextField1.setBackground(new java.awt.Color(20, 76, 100));
         jTextField1.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         jTextField1.setForeground(new java.awt.Color(255, 255, 255));
+<<<<<<< HEAD
         jTextField1.setText("");
 
         enterButton.setBackground(new java.awt.Color(20, 76, 119));
@@ -58,6 +77,13 @@ public class AddingFriendScene extends javax.swing.JFrame {
                 enterButtonActionPerformed(evt);
             }
         });
+=======
+        jTextField1.setText("feza#0001");
+
+        jButton1.setBackground(new java.awt.Color(20, 76, 119));
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
+        jButton1.setText("Enter");
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -72,7 +98,11 @@ public class AddingFriendScene extends javax.swing.JFrame {
                         .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(345, 345, 345))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+<<<<<<< HEAD
                         .addComponent(enterButton)
+=======
+                        .addComponent(jButton1)
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
                         .addGap(377, 377, 377))))
         );
         jPanel1Layout.setVerticalGroup(
@@ -83,7 +113,11 @@ public class AddingFriendScene extends javax.swing.JFrame {
                     .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+<<<<<<< HEAD
                 .addComponent(enterButton)
+=======
+                .addComponent(jButton1)
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
                 .addContainerGap(251, Short.MAX_VALUE))
         );
 
@@ -101,10 +135,13 @@ public class AddingFriendScene extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+<<<<<<< HEAD
     private void enterButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_loginButtonActionPerformed
         Database.getUser().updateFriends(Database.getUser(jTextField1.getText()));        
     }
 
+=======
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
     /**
      * @param args the command line arguments
      */
@@ -122,6 +159,7 @@ public class AddingFriendScene extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
+<<<<<<< HEAD
             java.util.logging.Logger.getLogger(AddingFriendScene
         .class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
@@ -133,20 +171,37 @@ public class AddingFriendScene extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(AddingFriendScene
         .class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+=======
+            java.util.logging.Logger.getLogger(NewJFrame2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(NewJFrame2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(NewJFrame2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(NewJFrame2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
+<<<<<<< HEAD
                 new AddingFriendScene
             ().setVisible(true);
+=======
+                new NewJFrame2().setVisible(true);
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+<<<<<<< HEAD
     private javax.swing.JButton enterButton;
+=======
+    private javax.swing.JButton jButton1;
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JTextField jTextField1;

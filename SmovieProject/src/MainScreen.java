@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 import java.awt.image.BufferedImage;
@@ -8,6 +9,8 @@ import javax.swing.*;
 
 import javax.imageio.ImageIO;
 
+=======
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
@@ -20,6 +23,7 @@ import javax.imageio.ImageIO;
 public class MainScreen extends javax.swing.JFrame {
 
     /**
+<<<<<<< HEAD
      * Creates new form MainScreen
      *
      */
@@ -36,6 +40,13 @@ public class MainScreen extends javax.swing.JFrame {
             } 
             catch (IOException e) {}
             }
+=======
+     * Creates new form NewJFrame
+     */
+    public MainScreen() {
+        initComponents();
+    }
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -47,6 +58,7 @@ public class MainScreen extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
+<<<<<<< HEAD
         jButton2 = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
@@ -58,6 +70,12 @@ public class MainScreen extends javax.swing.JFrame {
         jPanel14 = new javax.swing.JPanel();
         jPanel15 = new javax.swing.JPanel();
         jPanel16 = new javax.swing.JPanel();
+=======
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jList1 = new javax.swing.JList<>();
+        jButton2 = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
         jPanel2 = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
         jList2 = new javax.swing.JList<>();
@@ -74,6 +92,26 @@ public class MainScreen extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(20, 76, 119));
 
+<<<<<<< HEAD
+=======
+        jScrollPane1.setBackground(new java.awt.Color(153, 153, 153));
+
+        jList1.setBackground(new java.awt.Color(20, 76, 119));
+        jList1.setBorder(new javax.swing.border.MatteBorder(null));
+        jList1.setFont(new java.awt.Font("Arial", 1, 13)); // NOI18N
+        jList1.setForeground(new java.awt.Color(255, 255, 255));
+        jList1.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "Movie 1", "Movie 2", "Movie 3", "Movie 4", "Movie 5", "Movie 6", "Movie 7 ", "Movie 8 ", "Movie 9", "Movie 10" };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        jList1.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
+        jList1.setToolTipText("");
+        jList1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jList1.setLayoutOrientation(javax.swing.JList.HORIZONTAL_WRAP);
+        jScrollPane1.setViewportView(jList1);
+
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
         jButton2.setBackground(new java.awt.Color(20, 76, 119));
         jButton2.setFont(new java.awt.Font("Arial", 0, 13)); // NOI18N
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
@@ -83,6 +121,7 @@ public class MainScreen extends javax.swing.JFrame {
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Recommended for you");
 
+<<<<<<< HEAD
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
@@ -182,11 +221,14 @@ public class MainScreen extends javax.swing.JFrame {
             .addGap(0, 0, Short.MAX_VALUE)
         );
 
+=======
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
+<<<<<<< HEAD
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addContainerGap()
@@ -220,12 +262,24 @@ public class MainScreen extends javax.swing.JFrame {
                                 .addComponent(jPanel15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
+=======
+                .addContainerGap()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(340, 340, 340)
+                .addComponent(jButton2)
+                .addContainerGap(349, Short.MAX_VALUE))
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(47, 47, 47)
                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+<<<<<<< HEAD
                 .addGap(32, 32, 32)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
@@ -246,6 +300,13 @@ public class MainScreen extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jButton2)
                         .addGap(55, 55, 55))))
+=======
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane1)
+                .addGap(18, 18, 18)
+                .addComponent(jButton2)
+                .addGap(58, 58, 58))
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
         );
 
         jPanel2.setBackground(new java.awt.Color(20, 76, 119));
@@ -266,7 +327,11 @@ public class MainScreen extends javax.swing.JFrame {
         jButton1.setText("Add a friend");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
+<<<<<<< HEAD
                 addFriend(evt);
+=======
+                jButton1ActionPerformed(evt);
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
             }
         });
 
@@ -298,7 +363,11 @@ public class MainScreen extends javax.swing.JFrame {
         jButton3.setText("Create a blend");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
+<<<<<<< HEAD
                 createBlend(evt);
+=======
+                jButton3ActionPerformed(evt);
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
             }
         });
 
@@ -317,15 +386,26 @@ public class MainScreen extends javax.swing.JFrame {
                         .addGap(54, 54, 54))))
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+<<<<<<< HEAD
+=======
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jScrollPane2))
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
                     .addComponent(jLabel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 223, Short.MAX_VALUE)
                     .addComponent(jLabel4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addContainerGap()
+<<<<<<< HEAD
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jScrollPane2)
                             .addGroup(jPanel2Layout.createSequentialGroup()
                                 .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(0, 0, Short.MAX_VALUE)))))
+=======
+                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE)))
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
                 .addContainerGap())
             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel2Layout.createSequentialGroup()
@@ -338,7 +418,11 @@ public class MainScreen extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                 .addGap(17, 17, 17)
                 .addComponent(jLabel3)
+<<<<<<< HEAD
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+=======
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 46, Short.MAX_VALUE)
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
                 .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -363,8 +447,12 @@ public class MainScreen extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+<<<<<<< HEAD
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 1000, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(3502, Short.MAX_VALUE))
+=======
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -375,6 +463,7 @@ public class MainScreen extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+<<<<<<< HEAD
     private void addFriend(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         this.setVisible(false);
         AddingFriendScene add = new AddingFriendScene();
@@ -383,6 +472,14 @@ public class MainScreen extends javax.swing.JFrame {
     private void createBlend(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         this.setVisible(false);
         BlendScene blend = new BlendScene();
+=======
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
     }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
@@ -402,6 +499,7 @@ public class MainScreen extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
+<<<<<<< HEAD
             java.util.logging.Logger.getLogger(MainScreen
         .class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
@@ -413,14 +511,27 @@ public class MainScreen extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(MainScreen
         .class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+=======
+            java.util.logging.Logger.getLogger(MainScreen.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(MainScreen.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(MainScreen.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(MainScreen.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
+<<<<<<< HEAD
                 new MainScreen
             ().setVisible(true);
+=======
+                new MainScreen().setVisible(true);
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
             }
         });
     }
@@ -433,6 +544,7 @@ public class MainScreen extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+<<<<<<< HEAD
     private javax.swing.JList<String> jList2;
     private javax.swing.JList<String> jList3;
     private javax.swing.JPanel jPanel1;
@@ -446,8 +558,19 @@ public class MainScreen extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel9;
+=======
+    private javax.swing.JList<String> jList1;
+    private javax.swing.JList<String> jList2;
+    private javax.swing.JList<String> jList3;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JScrollPane jScrollPane1;
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     // End of variables declaration//GEN-END:variables
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7

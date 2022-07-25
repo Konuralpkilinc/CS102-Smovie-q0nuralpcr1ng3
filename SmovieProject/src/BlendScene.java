@@ -12,11 +12,16 @@ public class BlendScene extends javax.swing.JFrame {
     /**
      * Creates new form BlendScene
      */
+<<<<<<< HEAD
     User user;
      public BlendScene() {
         user = LoginScreen.currentUser;
         initComponents();
         this.setVisible(true);
+=======
+    public BlendScene() {
+        initComponents();
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
     }
 
     /**

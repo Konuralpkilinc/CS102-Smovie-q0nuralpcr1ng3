@@ -1,5 +1,6 @@
 public class Database {
     
+<<<<<<< HEAD
     public static void addUserToDatabase(User user){
 
     }
@@ -50,6 +51,46 @@ public class Database {
 
     public static Movie getMovie(){
         return null;
+=======
+    public void addUserToDatabase(User user){
+
+    }
+
+    public void addMovieToDatabase(Movie movie){
+
+    }
+
+    public void addSharedUserToDatabase(SharedUser sharedUser){
+
+    }
+
+    public void updateUsersFriends(User user){
+
+    }
+
+    public void updateUsersWatchedMovies(User user){
+
+    }
+
+    public void updateUsersBlendList(User user){
+
+    }
+
+    public void updateUsersTaste(User user){
+
+    }
+
+    public User getUser(){
+
+    }
+
+    public SharedUser getSharedUser(){
+
+    }
+
+    public Movie getMovie(){
+        
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
     }
 
 }

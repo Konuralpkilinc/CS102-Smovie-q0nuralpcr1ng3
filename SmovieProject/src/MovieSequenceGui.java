@@ -14,7 +14,10 @@ public class MovieSequenceGui extends javax.swing.JFrame {
      */
     public MovieSequenceGui() {
         initComponents();
+<<<<<<< HEAD
         this.setVisible(true);
+=======
+>>>>>>> b7074324d49c28665f01ff05d84fd9e71f6ca5e7
     }
 
     /**
