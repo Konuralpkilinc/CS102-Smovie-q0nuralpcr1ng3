@@ -39,4 +39,4 @@ After logging in, the users are given film posters on by one, and are required t
 	Additional features such as common movies watched by all users in the blend can be further implemented.
 All profiles in a blend can see all the blends they take part in, even if they are not the owner (creator) of that blend. 
 
-	**To see every members personal log you can check our wiki page**:
+	-**To see every members personal log you can check our wiki page**:
